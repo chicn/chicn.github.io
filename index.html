@@ -54,6 +54,17 @@
 </head>
 
 <body>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=875674899134741";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="wrap">
 <div id="contents">
 <article>
@@ -106,10 +117,11 @@
   <div class="Twitter">
   <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
   </div>
-  <div class="Facebook">
+  <!-- <div class="Facebook">
   <div class="fb-like" data-href="http://chicn.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
   </div>
-  </div>
+  </div> -->
+  <div class="fb-like" data-href="https://www.facebook.com/yourstoryjapan/?fref=ts" data-width="71" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
 
 </footer>
 </div><!-- wrap -->
