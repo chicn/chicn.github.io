@@ -1,0 +1,158 @@
+html,body{
+     height:100%;
+}
+
+#wrap{
+     width: 100%;
+     position: relative;
+     height:auto !important; /*IE6*/
+     height: 100%; /*IE6*/
+     min-height: 100%;
+
+     box-sizing: border-box;
+     border: 4px #d4d5db solid;
+}
+
+#contents{
+     padding-bottom:100px; /*Equal footer height*/
+}
+
+#footer{
+    height:100px;
+     position:absolute;
+     bottom:0;
+}
+
+
+body {
+color: #333333;
+font-family: "museo-sans", "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 0.08em;
+line-height: 1.4em;
+margin: 0;
+  -webkit-text-size-adjust: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+div.ME {
+display: block;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+color: #868996;
+letter-spacing: 0.2em;
+margin-bottom: 8px;
+ }
+
+div.CALM {
+display: block;
+font-size: 13px;
+color: #d4d5db;
+font-weight: 100;
+letter-spacing: 0.1em;
+}
+
+
+ul, li {
+color: #c1e3e2;
+font-size: 11px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 0.09em;
+line-height: 2.5em;
+
+list-style-type: square;
+
+margin-left: -12px;
+}
+
+li span {
+color: #333333;
+}
+
+
+section {
+margin-left: 18px;
+}
+
+section.NAME {
+margin-top: 16px;
+margin-bottom: 1.2em;
+}
+
+/*
+section.WORKS {
+margin-bottom: 1.6em;
+}
+*/
+
+section.PROFILE {
+color: #868996;
+font-size: 11px;
+letter-spacing: 0.09em;
+line-height: 2.3em;
+margin-bottom: 1.8em;
+}
+
+section.MESSAGE {
+position: absolute;
+bottom: 54px;
+color: #868996;
+font-size: 11px;
+letter-spacing: 0.09em;
+line-height: 2.0em;
+}
+
+div.BTN {
+position: absolute;
+bottom: 36px;
+filter:alpha(opacity=80);
+-moz-opacity: 0.8;
+opacity: 0.8;
+display: inline-block;
+vertical-align: top;
+}
+
+div.Twitter {
+position: absolute;
+left: 18px;
+}
+
+div.Facebook {
+position: absolute;
+left: 130px;
+}
+
+div.COPYRIGHT {
+position: absolute;
+bottom: 10px;
+right: 16px;
+font-size: 9px;
+color: #d4d5db;
+letter-spacing: 0.09em;
+}
+
+
+/* LINK */
+a{
+color: #333333;
+text-decoration: underline;
+}
+
+a.visited{
+color: #333333;
+text-decoration: underline;
+}
+
+
+/*HEADING*/
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
